@@ -1,6 +1,6 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "linkhub",
+  "productName": "LinkHub",
   "version": "0.1.0",
   "identifier": "com.imam-ariadi.linkhub",
   "build": {
@@ -12,9 +12,11 @@
   "app": {
     "windows": [
       {
-        "title": "linkhub",
-        "width": 800,
-        "height": 600
+        "title": "LinkHub",
+        "width": 1100,
+        "height": 720,
+        "minWidth": 800,
+        "minHeight": 500
       }
     ],
     "security": {
